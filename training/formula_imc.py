@@ -24,7 +24,7 @@ def result_imc():
 peso = float(input('Qual seu peso em kg? '))
 altura = float(input('Qual sua altura em m? '))
 
-round(imc(peso, altura))
+imc(peso, altura)
 result_imc()
 
 '''
